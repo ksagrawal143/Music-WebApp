@@ -1,0 +1,77 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app >
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>Register</servlet-name>
+  	<display-name>Register</display-name>
+  	<description></description>
+  	<servlet-class>com.JavaWebApplication.Controller.Register</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Login</servlet-name>
+  	<display-name>Login</display-name>
+  	<description></description>
+  	<servlet-class>com.JavaWebApplication.Controller.Login</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>SignIn</servlet-name>
+  	<display-name>SignIn</display-name>
+  	<description></description>
+  	<servlet-class>com.JavaWebApplication.Controller.Login</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Dashboard</servlet-name>
+  	<display-name>Dashboard</display-name>
+  	<description></description>
+  	<servlet-class>com.JavaWebApplication.Service.Dashboard</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>dunny</servlet-name>
+  	<display-name>dunny</display-name>
+  	<description></description>
+  	<servlet-class>com.JavaWebApplication.Service.dunny</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Logout</servlet-name>
+  	<display-name>Logout</display-name>
+  	<description></description>
+  	<servlet-class>com.JavaWebApplication.Controller.Logout</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>DashboardLogin</servlet-name>
+  	<display-name>DashboardLogin</display-name>
+  	<description></description>
+  	<servlet-class>com.JavaWebApplication.Service.DashboardLogin</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>Register</servlet-name>
+  	<url-pattern>/Register</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Login</servlet-name>
+  	<url-pattern>/Login</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>SignIn</servlet-name>
+  	<url-pattern>/SignIn</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Dashboard</servlet-name>
+  	<url-pattern>/Dashboard</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>dunny</servlet-name>
+  	<url-pattern>/dunny</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Logout</servlet-name>
+  	<url-pattern>/Logout</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>DashboardLogin</servlet-name>
+  	<url-pattern>/DashboardLogin</url-pattern>
+  </servlet-mapping>
+</web-app>

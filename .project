@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>JavaWebApplication</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.jdt.core.javabuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>org.eclipse.wst.common.project.facet.core.builder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>org.eclipse.m2e.core.maven2Builder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>org.eclipse.wst.validation.validationbuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.jem.workbench.JavaEMFNature</nature>
+		<nature>org.eclipse.wst.common.modulecore.ModuleCoreNature</nature>
+		<nature>org.eclipse.jdt.core.javanature</nature>
+		<nature>org.eclipse.m2e.core.maven2Nature</nature>
+		<nature>org.eclipse.wst.common.project.facet.core.nature</nature>
+		<nature>org.eclipse.wst.jsdt.core.jsNature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>src/main/webapp/assets/Maroon 5 - Memories.mp3</name>
+			<type>1</type>
+			<location>C:/Users/Kshitij Agrawal/Desktop/VirtusaProject/JavaWebApplication/Maroon 5 - Memories.mp3</location>
+		</link>
+		<link>
+			<name>src/main/webapp/images/1.png</name>
+			<type>1</type>
+			<location>C:/Users/Kshitij Agrawal/Desktop/VirtusaProject/JavaWebApplication/src/main/webapp/images/1.png</location>
+		</link>
+		<link>
+			<name>src/main/webapp/images/guitar.jpg</name>
+			<type>1</type>
+			<location>C:/Users/Kshitij Agrawal/Desktop/VirtusaProject/guitar.jpg</location>
+		</link>
+		<link>
+			<name>src/main/webapp/images/image1.jpg</name>
+			<type>1</type>
+			<location>C:/Users/Kshitij Agrawal/Desktop/VirtusaProject/Signup Form with Social login/image1.jpg</location>
+		</link>
+		<link>
+			<name>src/main/webapp/images/img-01.png</name>
+			<type>1</type>
+			<location>C:/Users/Kshitij Agrawal/Desktop/VirtusaProject/Login_v1/images/img-01.png</location>
+		</link>
+		<link>
+			<name>src/main/webapp/images/logo.png</name>
+			<type>1</type>
+			<location>C:/Users/Kshitij Agrawal/Desktop/VirtusaProject/logo.png</location>
+		</link>
+		<link>
+			<name>src/main/webapp/images/logo1.png</name>
+			<type>1</type>
+			<location>C:/Users/Kshitij Agrawal/Downloads/logo1.png</location>
+		</link>
+		<link>
+			<name>src/main/webapp/images/mybg.jpg</name>
+			<type>1</type>
+			<location>C:/Users/Kshitij Agrawal/Downloads/mybg.jpg</location>
+		</link>
+		<link>
+			<name>src/main/webapp/images/ss.png</name>
+			<type>1</type>
+			<location>C:/Users/Kshitij Agrawal/Desktop/VirtusaProject/JavaWebApplication/ss.png</location>
+		</link>
+		<link>
+			<name>src/main/webapp/images/team.png</name>
+			<type>1</type>
+			<location>C:/Users/Kshitij Agrawal/Downloads/team.png</location>
+		</link>
+	</linkedResources>
+</projectDescription>
