@@ -1,7 +1,7 @@
 @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css');
 body, html {
 	height: 100%;
-	  background-image: url('https://image.freepik.com/free-photo/bokeh-light-background_1048-9616.jpg');
+	  background-image: url('https://toppng.com/uploads/preview/microphone-device-music-sound-dark-11569915014viix5krik1.jpg');
       background-size:cover;
       background-attachment: fixed;
       background-repeat: no-repeat;
@@ -9,9 +9,20 @@ body, html {
 	 }
 audio{
 	width:100%;
-	opacity:0.7;
+	opacity:0.5;
 	height:50px;
-	margin-top:34%
+}
+#dtest{
+  background-color:white;
+  text-size:40em;
+  font-weight: bold;
+  border-radius:5px;
+  font-family:"Times New Roman", Times, serif;
+  width: 400px;
+  height:450px;
+  padding-top:50px;
+  margin: 20px;
+  opacity:0.7;
 }
 h1{
 	text-align:center;
@@ -40,7 +51,6 @@ h1{
     color: #fff;
     border-bottom: 1px solid #fff;
 }
-
 .search-full-view {
     position: fixed;
     width: 100%;

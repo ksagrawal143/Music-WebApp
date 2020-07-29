@@ -25,6 +25,11 @@
 			<arguments>
 			</arguments>
 		</buildCommand>
+		<buildCommand>
+			<name>org.springframework.ide.eclipse.boot.validation.springbootbuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
 	</buildSpec>
 	<natures>
 		<nature>org.eclipse.jem.workbench.JavaEMFNature</nature>
@@ -36,19 +41,14 @@
 	</natures>
 	<linkedResources>
 		<link>
-			<name>src/main/webapp/assets/Maroon 5 - Memories.mp3</name>
+			<name>src/main/webapp/assets/Maroon  - Memories.mp3</name>
 			<type>1</type>
-			<location>C:/Users/Kshitij Agrawal/Desktop/VirtusaProject/JavaWebApplication/Maroon 5 - Memories.mp3</location>
+			<location>C:/Users/Kshitij Agrawal/Desktop/VirtusaProject/JavaWebApplication/src/main/webapp/assets/Maroon 5 - Memories.mp3</location>
 		</link>
 		<link>
 			<name>src/main/webapp/images/1.png</name>
 			<type>1</type>
 			<location>C:/Users/Kshitij Agrawal/Desktop/VirtusaProject/JavaWebApplication/src/main/webapp/images/1.png</location>
-		</link>
-		<link>
-			<name>src/main/webapp/images/guitar.jpg</name>
-			<type>1</type>
-			<location>C:/Users/Kshitij Agrawal/Desktop/VirtusaProject/guitar.jpg</location>
 		</link>
 		<link>
 			<name>src/main/webapp/images/image1.jpg</name>
@@ -74,11 +74,6 @@
 			<name>src/main/webapp/images/mybg.jpg</name>
 			<type>1</type>
 			<location>C:/Users/Kshitij Agrawal/Downloads/mybg.jpg</location>
-		</link>
-		<link>
-			<name>src/main/webapp/images/ss.png</name>
-			<type>1</type>
-			<location>C:/Users/Kshitij Agrawal/Desktop/VirtusaProject/JavaWebApplication/ss.png</location>
 		</link>
 		<link>
 			<name>src/main/webapp/images/team.png</name>

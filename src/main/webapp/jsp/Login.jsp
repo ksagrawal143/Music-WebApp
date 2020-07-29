@@ -36,7 +36,7 @@
 						</button>
 					</div>
 				</form>
-				<div class="login100-more" style="background-image: url('./images/guitar.jpg'); width=50px;height=150px;"></div>
+				<div class="login100-more" style="background-image: url('https://c4.wallpaperflare.com/wallpaper/919/604/7/music-background-guitar-wallpaper-preview.jpg'); width=50px;height=150px;"></div>
 			</div>
 		</div>
 	</div>

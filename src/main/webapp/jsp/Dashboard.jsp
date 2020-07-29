@@ -15,9 +15,24 @@
 </head>
 <body>
 <script type="text/javascript">
-	function msg(){
-		
+if ($(window).width() > 992) {
+	  $(window).scroll(function(){  
+	     if ($(this).scrollTop() >0) {
+	        $('.navbar navbar-expand-md navbar-dark bg-dark').addClass("fixed-top");
+	        // add padding top to show content behind navbar
+	        $('body').css('padding-top', $('.navbar').outerHeight() + 'px');
+	      }else{
+	        $('.navbar navbar-expand-md navbar-dark bg-dark').removeClass("fixed-top");
+	         // remove padding top from body
+	        $('body').css('padding-top', '0');
+	      }   
+	  });
 	}
+$(document).ready(function(){
+    $(".myicon").click(function(){
+        location.reload(true);
+    });
+});
 	(function () {
 		if(localStorage.Login==null){
 	    	alert('Please login again.');
@@ -43,9 +58,10 @@
 	response.setDateHeader("Expires",0); 
 	response.setHeader("Vary","*");
 	%>
-	 <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+	 <nav class="navbar navbar-expand-md navbar-dark bg-dark" style="position:absolute;width:100%" class="sticky-top">
         <div class="container" style="margin-left:10px">
-            <a class="navbar-brand" href="#" class="text-white">Hey!!
+        <img class="myicon"style="height: 50px;margin-right: 10px;"src="https://1.bp.blogspot.com/-RgJWXm0t7q0/XIWTSUvY40I/AAAAAAAAIj0/YMDr1bdHzBsryvSU8CEGeSGNlqPh3axlQCK4BGAYYCw/s1600/music%2Bicons.png">
+            <a class="navbar-brand" href="#" id="hey">Hey!!
 	<%
 	String name=request.getParameter("username");out.print(" "+name);
 	if(name==null){
@@ -59,25 +75,25 @@
             	
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <input class="navl" type="submit" value="Home" name="Home" onclick="msg()">
+                        <input class="navl" type="submit" value="Home" name="Home" id="Home" onclick="">
                     </li>
                     <li class="nav-item">
-                            <input class="navl" type="submit" value="Podcasts" name="Podcasts" onclick="msg()">
+                            <input class="navl" type="submit" value="Podcasts" id="Podcasts" name="Podcasts" onclick="">
                     </li>
                     <li class="nav-item">
-                           <input class="navl" type="submit" value="Playlists" name="Playlists"onclick="msg()">
+                           <input class="navl" type="submit" value="Playlists" name="Playlists" id="Playlists" onclick="">
                     </li>
                     <li class="nav-item">
-                        <input class="navl" type="submit" value="Artists" name="Artists"onclick="msg()">
+                        <input class="navl" type="submit" value="Artists" name="Artists" id="Artists" onclick="">
                     </li>
                     <li class="nav-item">
-				          <input class="navl" type="submit" value="Albums" name="Albums"onclick="msg()">
+				          <input class="navl" type="submit" value="Albums" name="Albums" id="Albums" onclick="">
                     </li>
                 </ul>
             </div>
 			<div class="w-25">
                     <div class="input-group">
-                      <input type="text" class="form-control" placeholder="Search..." name="query">
+                      <input style="margin-left:5px" type="text" class="form-control" placeholder="Search..." name="query">
                       <button type="submit">Go</button>      
                     </div>
             </div>
@@ -88,9 +104,27 @@
             </div>
         </div>
     </nav>
-	<marquee direction="right"><h4 style="color:white">Enjoy the latest music around the globe !!</h4></marquee>
-	<audio class="audio" controls autoplay="false" >
+	<marquee direction="right" style="margin-top:95px;position:relative"><h4 style="color:white;">Enjoy the latest music around the globe !!</h4></marquee>
+	<div id="dtest" style="color:black;"> </div>
+	<audio class="audio" controls autoplay loop>
 		<source src="./assets/Maroon%205%20-%20Memories.mp3" type="audio/mpeg">
 	</audio>
+	<script>
+	$("#Home").click(function(){
+	    $("#dtest").text("");
+	  });
+	$("#Podcasts").click(function(){
+	    $("#dtest").text("Top Podcasts");
+	  });
+	$("#Playlists").click(function(){
+	    $("#dtest").text("Top-50 Playlists");
+	  });
+	$("#Artists").click(function(){
+	    $("#dtest").text("Top-50 Artists");
+	  });
+	$("#Albums").click(function(){
+	    $("#dtest").text("Top-50 Albums");
+	  });
+	</script>
 </body>
 </html>
