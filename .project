@@ -46,9 +46,49 @@
 			<location>C:/Users/Kshitij Agrawal/Desktop/VirtusaProject/JavaWebApplication/src/main/webapp/assets/Maroon 5 - Memories.mp3</location>
 		</link>
 		<link>
+			<name>src/main/webapp/assets/Music</name>
+			<type>2</type>
+			<location>C:/Users/Kshitij Agrawal/Desktop/VirtusaProject/JavaWebApplication/src/main/webapp/assets/Music</location>
+		</link>
+		<link>
 			<name>src/main/webapp/images/1.png</name>
 			<type>1</type>
 			<location>C:/Users/Kshitij Agrawal/Desktop/VirtusaProject/JavaWebApplication/src/main/webapp/images/1.png</location>
+		</link>
+		<link>
+			<name>src/main/webapp/images/ei1.jpg</name>
+			<type>1</type>
+			<location>C:/Users/Kshitij Agrawal/Desktop/VirtusaProject/JavaWebApplication/src/main/webapp/assets/ei1.jpg</location>
+		</link>
+		<link>
+			<name>src/main/webapp/images/ei2.jpg</name>
+			<type>1</type>
+			<location>C:/Users/Kshitij Agrawal/Desktop/VirtusaProject/JavaWebApplication/src/main/webapp/assets/ei2.jpg</location>
+		</link>
+		<link>
+			<name>src/main/webapp/images/ei3.jpg</name>
+			<type>1</type>
+			<location>C:/Users/Kshitij Agrawal/Desktop/VirtusaProject/JavaWebApplication/src/main/webapp/assets/ei3.jpg</location>
+		</link>
+		<link>
+			<name>src/main/webapp/images/ei4.jpg</name>
+			<type>1</type>
+			<location>C:/Users/Kshitij Agrawal/Desktop/VirtusaProject/JavaWebApplication/src/main/webapp/assets/ei4.jpg</location>
+		</link>
+		<link>
+			<name>src/main/webapp/images/hi1.jpg</name>
+			<type>1</type>
+			<location>C:/Users/Kshitij Agrawal/Desktop/VirtusaProject/JavaWebApplication/src/main/webapp/assets/hi1.jpg</location>
+		</link>
+		<link>
+			<name>src/main/webapp/images/hi2.jpg</name>
+			<type>1</type>
+			<location>C:/Users/Kshitij Agrawal/Desktop/VirtusaProject/JavaWebApplication/src/main/webapp/assets/hi2.jpg</location>
+		</link>
+		<link>
+			<name>src/main/webapp/images/hi3.jpg</name>
+			<type>1</type>
+			<location>C:/Users/Kshitij Agrawal/Desktop/VirtusaProject/JavaWebApplication/src/main/webapp/assets/hi3.jpg</location>
 		</link>
 		<link>
 			<name>src/main/webapp/images/image1.jpg</name>
@@ -76,9 +116,39 @@
 			<location>C:/Users/Kshitij Agrawal/Downloads/mybg.jpg</location>
 		</link>
 		<link>
+			<name>src/main/webapp/images/pi1.jpg</name>
+			<type>1</type>
+			<location>C:/Users/Kshitij Agrawal/Desktop/VirtusaProject/JavaWebApplication/src/main/webapp/assets/pi1.jpg</location>
+		</link>
+		<link>
+			<name>src/main/webapp/images/pi2.jpg</name>
+			<type>1</type>
+			<location>C:/Users/Kshitij Agrawal/Desktop/VirtusaProject/JavaWebApplication/src/main/webapp/assets/pi2.jpg</location>
+		</link>
+		<link>
+			<name>src/main/webapp/images/si1.jpg</name>
+			<type>1</type>
+			<location>C:/Users/Kshitij Agrawal/Desktop/VirtusaProject/JavaWebApplication/src/main/webapp/assets/si1.jpg</location>
+		</link>
+		<link>
 			<name>src/main/webapp/images/team.png</name>
 			<type>1</type>
 			<location>C:/Users/Kshitij Agrawal/Downloads/team.png</location>
+		</link>
+		<link>
+			<name>src/main/webapp/images/tenor.gif</name>
+			<type>1</type>
+			<location>C:/Users/Kshitij Agrawal/Desktop/VirtusaProject/JavaWebApplication/src/main/webapp/images/tenor.gif</location>
+		</link>
+		<link>
+			<name>src/main/webapp/assets/Music/e2.mp3</name>
+			<type>1</type>
+			<location>C:/Users/Kshitij Agrawal/Desktop/VirtusaProject/JavaWebApplication/src/main/webapp/assets/Music/e2.mp3</location>
+		</link>
+		<link>
+			<name>src/main/webapp/assets/Music/leanon.mp3</name>
+			<type>1</type>
+			<location>C:/Users/Kshitij Agrawal/Desktop/VirtusaProject/JavaWebApplication/src/main/webapp/assets/Music/Major Lazer &amp; DJ Snake - Lean On (feat. MØ) (Official).mp3</location>
 		</link>
 	</linkedResources>
 </projectDescription>

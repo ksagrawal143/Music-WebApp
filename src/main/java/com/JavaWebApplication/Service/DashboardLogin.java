@@ -2,7 +2,11 @@ package com.JavaWebApplication.Service;
 
 import java.io.IOException;
 import java.io.PrintWriter;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.sql.Statement;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
@@ -34,7 +38,7 @@ public class DashboardLogin extends HttpServlet {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
 		/*response.getWriter().append("Served at: ").append(request.getContextPath());*/
-		 RequestDispatcher req = request.getRequestDispatcher("./jsp/Login.jsp");
+		// RequestDispatcher req = request.getRequestDispatcher("./jsp/Login.jsp");
 		 }
 
 	/**
@@ -61,10 +65,6 @@ public class DashboardLogin extends HttpServlet {
 		if(alert.equals("Login successful.")){
 			HttpSession session=request.getSession();
 			session.setAttribute("username",name);
-			/*pw=response.getWriter();
-			pw.println("<script type=\"text/javascript\">");
-			pw.println("alert('"+alert+"');");
-			pw.println("</script>");*/
 			req = request.getRequestDispatcher("./jsp/Dashboard.jsp");
 		}
 		else
@@ -77,6 +77,7 @@ public class DashboardLogin extends HttpServlet {
 			req = request.getRequestDispatcher("./jsp/Login.jsp");
 		}
 		req.include(request, response);
+		
 	}
 
 }

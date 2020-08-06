@@ -46,6 +46,18 @@
   	<description></description>
   	<servlet-class>com.JavaWebApplication.Service.DashboardLogin</servlet-class>
   </servlet>
+  <servlet>
+  	<servlet-name>searchhandler</servlet-name>
+  	<display-name>searchhandler</display-name>
+  	<description></description>
+  	<servlet-class>com.JavaWebApplication.Controller.searchhandler</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>mysearch</servlet-name>
+  	<display-name>mysearch</display-name>
+  	<description></description>
+  	<servlet-class>com.JavaWebApplication.Service.mysearch</servlet-class>
+  </servlet>
   <servlet-mapping>
   	<servlet-name>Register</servlet-name>
   	<url-pattern>/Register</url-pattern>
@@ -73,5 +85,13 @@
   <servlet-mapping>
   	<servlet-name>DashboardLogin</servlet-name>
   	<url-pattern>/DashboardLogin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>searchhandler</servlet-name>
+  	<url-pattern>/searchhandler</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>mysearch</servlet-name>
+  	<url-pattern>/mysearch</url-pattern>
   </servlet-mapping>
 </web-app>
